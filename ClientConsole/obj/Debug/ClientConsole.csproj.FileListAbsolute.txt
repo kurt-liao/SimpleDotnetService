@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\bin\Debug\ClientConsole.exe.config
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\bin\Debug\ClientConsole.exe
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\bin\Debug\ClientConsole.pdb
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\bin\Debug\HelloWorld.dll
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\bin\Debug\HelloWorld.pdb
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\obj\Debug\ClientConsole.csprojAssemblyReference.cache
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\obj\Debug\ClientConsole.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\obj\Debug\ClientConsole.csproj.CopyComplete
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\obj\Debug\ClientConsole.exe
+C:\Users\user\Desktop\HelloWorldService\ClientConsole\obj\Debug\ClientConsole.pdb
