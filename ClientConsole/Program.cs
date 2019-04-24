@@ -23,7 +23,7 @@ namespace ClientConsole
 
         public static void OpenChannel()
         {
-            using (ChannelFactory<IHelloWorld> channel = new ChannelFactory<IHelloWorld>(new NetTcpBinding(), new EndpointAddress("net.tcp://localhost:8005/HelloService")))
+            using (ChannelFactory<IHelloWorld> channel = new ChannelFactory<IHelloWorld>(new NetNamedPipeBinding(), new EndpointAddress("net.pipe://localhost/HelloService")))
             {
                 IHelloWorld client = channel.CreateChannel();//CreateChannel後就會Open Channel
 

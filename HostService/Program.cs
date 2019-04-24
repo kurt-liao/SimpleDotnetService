@@ -12,8 +12,8 @@ namespace HostService
     {
         static void Main(string[] args)
         {
-            var h = new ServiceHost(typeof(HelloWorld),  new Uri("net.tcp://localhost:8005/"));
-            h.AddServiceEndpoint(typeof(IHelloWorld), new NetTcpBinding(), "HelloService");
+            var h = new ServiceHost(typeof(HelloWorld),  new Uri("net.pipe://localhost/"));
+            h.AddServiceEndpoint(typeof(IHelloWorld), new NetNamedPipeBinding(), "HelloService");
             h.Open();
 
             Console.WriteLine("Start Hello Service");
